@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+    
+    background:rgb(7, 49, 238);
+    /* border: 2px sodid rgba(12, 16, 231, 0.897); */
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height:56px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(226, 13, 13);
+    font-weight: bold;
+    
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+
+}
+.searchbar input{
+    width:30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+
+}
+.searchbar button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.slider{
+   
+    width: 80vw;
+    margin: 12px auto;
+    overflow:hidden;
+    
+}
+.card{
+    max-width: 91vw;
+    margin: 37px  auto;
+    font-family: 'Courier New', Courier, monospace;  
+}
+.cards{
+    display: flex;
+    /* flex-direction:row;
+    align-items: center; */
+    overflow: hidden;
+
+}
+.card-item{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh) ;
+}
+footer{
+    height: 12vh;
+    background-color: rgb(10, 218, 155);
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
